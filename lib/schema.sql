@@ -6,33 +6,31 @@ CREATE TABLE cats (
 
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
-    name TEXT, 
-    age INTEGER
+    title TEXT, 
 );
 
 CREATE TABLE sub-genres (
   id INTEGER PRIMARY KEY,
     name TEXT, 
-    age INTEGER
 );
 
 CREATE TABLE authors (
   id INTEGER PRIMARY KEY,
-    name TEXT, 
-    age INTEGER
+    name TEXT,
 );
 
 CREATE TABLE books (
   id INTEGER PRIMARY KEY,
-    name TEXT, 
-    age INTEGER
+    title TEXT, 
+    year INTEGER
 );
 
 CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
     name TEXT, 
-    age INTEGER
-);
+    motto TEXT,
+    species TEXT
+    );
 
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
