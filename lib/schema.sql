@@ -6,7 +6,8 @@ CREATE TABLE cats (
 
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
-    title TEXT, 
+    title TEXT,
+    author_id INTEGER,
 );
 
 CREATE TABLE sub-genres (
