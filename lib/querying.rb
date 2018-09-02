@@ -23,7 +23,7 @@ end
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, series.name
 FROM authors
-JOIN suggenres ON first_table.column_name = second_table.column_name"
+JOIN subgenres ON authors.column_name = second_table.column_name"
 end
 
 def select_series_title_with_most_human_characters
