@@ -1,0 +1,1 @@
+UPDATE table_1 SET value = 1 WHERE value = "data_entry_info"
