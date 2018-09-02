@@ -2,8 +2,8 @@ def select_books_titles_and_years_in_first_series_order_by_year
 "SELECT title, year
 FROM books
 JOIN series ON books.series_id = series.id
-GROUP BY books.column_name, table_name
-ORDER BY aggregate function (i.e. SUM, AVERAGE)(table_name.column_name), column_name;"
+GROUP BY books.column_name 
+LIMIT 1"
 end
 
 def select_name_and_motto_of_char_with_longest_motto
