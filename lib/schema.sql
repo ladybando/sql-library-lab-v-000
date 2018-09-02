@@ -1,9 +1,3 @@
-CREATE TABLE cats (
-  id INTEGER PRIMARY KEY,
-    name TEXT, 
-    age INTEGER
-);
-
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
     title TEXT,
@@ -32,7 +26,7 @@ CREATE TABLE characters (
     name TEXT, 
     motto TEXT,
     species TEXT
-    );
+);
 
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
