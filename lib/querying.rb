@@ -16,8 +16,8 @@ end
 
 def select_value_and_count_of_most_prolific_species
   "SELECT species
-FROM table_name
-ORDER BY column_name ASC|DESC, column_name ASC|DESC"
+FROM characters
+column_name ASC|DESC, column_name ASC|DESC"
 end
 
 def select_name_and_series_subgenres_of_authors
