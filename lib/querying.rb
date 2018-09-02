@@ -1,5 +1,5 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-"SELECT column_name(s)
+"SELECT 
 FROM first_table
 JOIN second_table ON first_table.column_name = second_table.column_name
 GROUP BY table_name.column_name, table_name
