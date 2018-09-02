@@ -15,7 +15,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT bears.color, COUNT(bears.color) 
+  "SELECT species, COUNT(character.species) 
   FROM bears GROUP BY bears.color
   ORDER BY COUNT(*) DESC LIMIT 1;"
 end
