@@ -1,7 +1,7 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-"SELECT 
-FROM first_table
-JOIN second_table ON first_table.column_name = second_table.column_name
+"SELECT title, year
+FROM books
+JOIN series ON books.series_id = series.id
 GROUP BY table_name.column_name, table_name
 ORDER BY aggregate function (i.e. SUM, AVERAGE)(table_name.column_name), column_name;"
 end
