@@ -1,1 +1,1 @@
-UPDATE species SET value = 1 WHERE value = "data_entry_info"
+UPDATE species SET value = 'Martian' WHERE value = "cylon"
